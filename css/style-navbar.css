@@ -1,0 +1,69 @@
+#logo{
+    width: 180px;
+    margin-top: 0;
+    margin-left: 80px;
+    display: inline;
+}
+header{
+    height: 58px;
+    background-color:white;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+#socials{
+    display: inline;
+    position: absolute;
+    top: 15px;
+    left: 1100px;
+}
+#socials a img{
+    width: 30px;
+}
+
+#nav{
+    display: flex;
+    background-color: #ea3c12;
+    height: 50px;
+    justify-content: flex-start;
+    margin-top: 0;
+}
+#nav a{
+    text-decoration: none;
+    padding: 14px 20px;
+    text-align: center;
+    color: white;
+    font-size: 13pt;
+    font-family: 'Alegreya Sans SC';
+}
+
+#nav a:hover{
+    background-color:#ec5938;
+}
+
+#nav :first-child{
+    margin-left: 300px;
+}
+#loginbttn{
+  background-color: white;
+  border: none;
+  color: #ea3c12;
+  padding: 8px 12px;
+  text-align: center;
+  font-family: monospace;
+  font-size: 13pt;
+  position: absolute;
+  top: 67px;
+  left: 1100px;
+  cursor: pointer;
+}
+#loginbttn:hover{
+    background-color: #ea3c12;
+    color: white;
+    border: 2px solid white;
+}
+button:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.24);
+}
+

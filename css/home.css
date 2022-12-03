@@ -1,0 +1,160 @@
+#slideshow img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 110px;
+    animation: fadeIn 2s;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+@font-face {
+    font-family: 'sequel 85';
+    src: url('C:\\Users\\hp\\Desktop\\Professional-IT-School-1\\fonts\\Sequel100Black-85.ttf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.kurrikula-body{
+    background-color: #ea3c12;
+    height: 1800px;
+    display: absolute;
+}
+.kurrikula-body h3{
+    padding-bottom: 50px;
+    padding-top: 50px;
+    margin-left: 80px;
+    color: white;
+    font-size: 72px;
+    margin-bottom: 0;
+    font-family:'sequel 85';
+}
+.Kurrikula-right{
+    margin-left: 120px;
+    margin-top: 90px;
+}
+.Kurrikula-right img{
+    width: 260px;
+    margin-left: 400px;
+}
+.content1{
+    display: flex;
+    align-items: center;
+}
+.kurrikula-content-right{
+    font-family: "sequel 85";
+    font-weight: 500;
+    font-size: 50px;
+    color: white;
+    margin-left: 556px;
+    margin-right: 25px;
+    margin-top: -250px;
+}
+.second-title{
+    font-family: "sequel 85";
+    font-size: 50px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #fff;
+}
+.Kurrikula-left{
+    margin-top: 100px;
+}
+.kurrikula-content-left{
+    font-family: "sequel 85";
+    font-weight: 500;
+    font-size: 50px;
+    color: white;
+    margin-left: 350px;
+    margin-top: -290px;
+}
+
+.Kurrikula-left img{
+    width: 270px;
+    margin-left: 200px;
+}
+.about-body{
+    margin-top: 50px;
+    height: 700px;
+}
+.about-img{
+    display: flex;
+    justify-content: flex-end;
+}
+.about-img #llaptop{
+    margin-top: 100px;
+    margin-right: 130px;
+    border-radius: 50%;
+    display: inline;
+}
+.about-content{
+    height: 400px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 30px;
+    margin-top: -300px;
+    width: 700px;
+    text-align: center;
+    padding-top: 50px;
+    line-height: 1.9;
+    font-size: 12pt;
+    font-family: 'Poppins', sans-serif;
+}
+.about-content #readbttn{
+    text-align: center;
+    border: 2px solid #ea3c12;
+    margin-top: 60px;
+    font-family: 'Alegreya Sans SC';
+    font-size: 13pt;
+    padding: 10px 12px;
+    cursor: pointer;
+    width: 200px;
+}
+.aktivitete{
+    height: 130px;
+    margin-top: 20px;
+}
+
+.gallery:hover {
+    border: 1px solid #777;
+}
+  
+.gallery img {
+    width: 100%;
+    height: auto;
+}
+  
+.responsive {
+    padding: 0 3px;
+    margin-left: 40px;
+    width: 20.99999%;
+    float: left;
+}
+.responsive img{
+    transform: .1s;
+}
+.responsive img:hover{
+    transform: scale(1.2);
+}
+ 
+.gallery-photo{
+    height: 500px;
+}
+@media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}

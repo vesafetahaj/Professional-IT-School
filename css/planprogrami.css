@@ -1,0 +1,167 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.img-container{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+.img-container img{
+    width: 100%;
+}
+@font-face {
+    font-family: 'sequel 85';
+    src: url('C:\\Users\\hp\\Desktop\\Professional-IT-School-1\\fonts\\Sequel100Black-85.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+.text-container h1{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 275px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:white;
+    font-family: "sequel 85";
+    margin-top: -580px;
+    font-size: 48px;
+}
+#description{
+    font-size: 21px;
+    font-family: monospace;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 80px;
+}
+.text-container img{
+    width: 30%;
+    margin-left: 460px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+
+.img-content{
+    width: 50%;
+    height: 100vh;
+}
+.img-content img{
+    width: 100%;
+    height: 100%;
+}
+.text-content{
+    width: 50%;
+    color: white;
+    height: 100vh;
+    overflow-y: auto;
+    flex-grow: 5;
+}
+#text-content1{
+    background-color: #108bf9;
+}
+.text-content h1{
+    font-family: "sequel 85";
+    margin-top: 60px;
+    text-align: center;
+}
+.text-content h3{
+    font-family: monospace;
+    padding: 30px 80px;
+    font-size: 18px;
+    line-height: 1.7;
+}
+#text-content2{
+    background-color:  #892890;
+    margin-top: -705px;
+}
+#text-content3{
+    background-color: #41ad49;;
+}
+
+
+
+
+.text-content::-webkit-scrollbar {
+    width: 3px;
+}
+
+.text-content::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+.text-content::-webkit-scrollbar-thumb {
+    background: rgb(175, 175, 175); 
+}
+  
+.text-content::-webkit-scrollbar-thumb:hover {
+    background: rgb(129, 129, 129); 
+}
+
+
+
+
+.tabela{
+    background-color: rgb(197, 197, 197);
+}
+table{
+    width: 100%;
+    height: 400px;
+}
+
+table tr th,td{
+    padding: 15px 40px;
+
+}
+table tr th{
+    font-family: "sequel 85";    
+}
+table tr td{
+    font-size: 20px;
+    font-family: monospace;
+
+}
+table tr .grupmosha{
+    font-size: 28px;
+}
+table tr .first,#first{
+    color: #892890;
+}
+table tr .second,#second{
+    color: red;
+}
+table tr .third,#third{
+    color: darkblue;
+}
+
+table tr td button{
+    background-color: rgb(41, 163, 41);
+    text-align: center;
+    padding: 18px 18px;
+    border: none;
+    font-size: 16px;
+    font-family: monospace;
+    cursor: pointer;
+    color: white;
+}
+table tr td button:hover{
+    background-color: white;
+    color: rgb(41, 163, 41);
+    border: solid 2px rgb(41, 163, 41);
+}
+table tr td a{
+    color: darkblue;
+    font-family: monospace;
+    font-size: 20px;
+    padding-left: 20px;
+    text-decoration: underline;
+}
