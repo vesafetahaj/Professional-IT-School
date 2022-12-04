@@ -165,3 +165,7 @@ table tr td a{
     padding-left: 20px;
     text-decoration: underline;
 }
+.meshume:hover{
+    color: rgb(41, 163, 41);
+    text-decoration: none;
+}

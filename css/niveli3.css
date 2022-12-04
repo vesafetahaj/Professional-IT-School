@@ -1,0 +1,102 @@
+@font-face {
+    font-family: 'sequel 85';
+    src: url('C:\\Users\\hp\\Desktop\\Professional-IT-School-1\\fonts\\Sequel100Black-85.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.imgcontent{
+    display: flex;
+    justify-content: flex-end;
+    background-color:#108bf9;
+    margin-top: 100px;
+}
+.imgcontent img{
+    width: 40%;
+}
+.textcontent{
+    padding-top: 100px;
+    width: 50%
+}
+.textcontent h1{
+    z-index: 3;
+    margin-top: -600px;
+    margin-left: 100px;
+    font-size: 65px;
+    font-family: "sequel 85";
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:white;
+}
+
+.leftcontent{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    height: 500px;
+    background-color: green;
+    margin-top: -145px;
+    width: 50%;
+}
+.leftcontent h1{
+    text-align: center;
+    font-family: "sequel 85";
+    font-size: 50px;
+    color: white;
+    padding-left: 150px;
+    padding-top: 100px;
+}
+.rightcontent{
+    display: inline;
+    float: right;
+    height: 500px;
+    margin-top: -600px;
+    width: 50%;
+    border-bottom: 2px solid green;
+}
+
+.rightcontent h3{
+    font-family: monospace;
+    font-size: 25px;
+    color: green;
+    padding-left: 50px;
+    padding-top: 160px;
+}
+
+.apliko{
+    background-color: #108bf9;
+    margin-top: -22px;
+}
+.apliko button{
+    background-color: rgb(41, 163, 41);
+    text-align: center;
+    padding: 18px 18px;
+    border: none;
+    margin-left: 600px;
+    margin-bottom: 30px;
+    font-size: 16px;
+    font-family: monospace;
+    cursor: pointer;
+    color: white;
+}
+.apliko button:hover{
+    background-color: white;
+    color: rgb(41, 163, 41);
+    border: solid 2px rgb(41, 163, 41);
+}
+.apliko h1{
+    font-family: "sequel 85";
+    margin-left: 300px;
+    color: white;
+    padding-top: 60px;
+}
