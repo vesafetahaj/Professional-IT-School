@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'sequel 85';
+    src: url('C:\\Users\\hp\\Desktop\\Professional-IT-School-1\\fonts\\Sequel100Black-85.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+.img-content{
+    margin-top: 80px;
+}
+.img-content img{
+    width: 100%;
+}
+.text-content{
+    margin-top: -470px;
+}
+.text-content h1, h4{
+    color: darkblue;
+    padding-left: 30px;
+}
+.text-content h1{
+    font-family: "sequel 85";
+    font-size: 40px;
+}
+.text-content h4{
+    font-family: monospace;
+    font-size: 15px;
+}
+.mission{
+    margin-top: 300px;
+    height: 200px;
+    background-color: darkblue;
+    padding-left: 40px;
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+}
+.mission h1{
+    font-family: "sequel 85";
+}
+.mission h3{
+    font-family: monospace;
+    color: white;
+    font-size: 18px;
+}
+.corevalues{
+    height: 950px;
+    background-color: #ebebeb;
+    color: black;
+    margin-top: -20px;
+}
+.corevalues h1{
+    font-family: "sequel 85";
+    text-align: center;
+    padding-top: 30px;
+}
+
+.corevalues .left{
+    width: 40%;
+    display: inline;
+}
+.corevalues .left img{
+    width: 70px;
+    display: inline;
+    padding-left: 150px;
+    margin-top: 80px;
+}
+.corevalues .left h2{
+    font-family: monospace;
+    padding-left: 250px;
+    margin-top: -80px;
+}
+.corevalues .left #desc{
+    font-family: monospace;
+    font-size: 15px;
+    padding-left: 250px;
+    margin-top: 0px;
+    padding-right: 100px;
+}
+
+
