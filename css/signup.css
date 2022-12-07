@@ -4,12 +4,12 @@ body{
     background-image: linear-gradient(#ea3c12, #ec6c4c);
 }
 .main{
-    height: 900px;
+    height: 1100px;
 }
 .loginform{
     margin: 180px auto;
     width: 800px;
-    height: 800px;
+    height: 1000px;
     box-shadow: 5px 10px 18px #ff9a9a;
 }
 .loginform img{
@@ -23,33 +23,22 @@ body{
     text-align: center;
     font-size: 40px;
 }
-#user, #pass{
+.inputfield{
     width: 80%;
     padding: 12px 20px;
+    margin: 8px 0;
     display: inline-block;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
-    margin: 30px 70px;
+    margin: 10px 70px;
     font-family: monospace;
 }
-
 label{
     font-family: monospace;
     color: white;
     margin: 30px 70px;
     font-size: 20px;
-}
-form a{
-    text-decoration: none;
-    cursor: pointer;
-    color: blue;
-}
-#forgot{
-    font-family: monospace;
-    color: white;
-    font-size: 13px;
-    text-decoration: none;
 }
 input[type=submit] {
     width: 80%;
@@ -70,13 +59,4 @@ input[type=submit]:hover {
     border: 2px solid #4CAF50;
 
 }
-#signup{
-    text-align: center;
-    font-family: monospace;
-    font-size: 18px;
-    color: white;
-    margin-top: 100px;
-    margin-left: 300px;
-}
 
-  
