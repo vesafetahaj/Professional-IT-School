@@ -2,3 +2,66 @@ body{
     margin: 0;
     padding: 0;
 }
+.container{
+    background-color: darkblue;
+    margin-top: 100px;
+    height: 1600px;
+ 
+}
+@font-face {
+    font-family: 'sequel 85';
+    src: url('C:\\Users\\hp\\Desktop\\Professional-IT-School-1\\fonts\\Sequel100Black-85.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+.container h1{
+    font-family: "sequel 85";
+    color: white;
+    width: 80%;
+    padding-left: 80px;
+    padding-top: 80px;
+}
+.container label{
+    color: #108bf9;
+    font-family: "sequel 85";
+    font-size: 30px;
+    margin-left: 70px;
+}
+.container input,select{
+    font-family: mono medium;
+    font-size: 28px;
+    margin-bottom: 10px;
+    width: 70%;
+    border-radius: 0;
+    box-sizing: border-box;
+    background-color: transparent;
+    color: #fff!important;
+    border: none!important;
+    outline: none;
+    height: 75px;
+    padding-left: 0;
+    border-bottom: 2px solid #fff!important;
+    margin-left: 70px;
+}
+.container option{
+    color: darkblue;
+    font-family: monospace;
+    font-size: 17px;
+}
+.container button{
+    background-color: rgb(41, 163, 41);
+    text-align: center;
+    padding: 18px 18px;
+    border: none;
+    margin-left: 70px;
+    margin-bottom: 30px;
+    margin-top: 100px;
+    font-size: 16px;
+    font-family: monospace;
+    cursor: pointer;
+    color: white;
+}
+.container button:hover{
+    background-color: white;
+    color: rgb(41, 163, 41);
+}
