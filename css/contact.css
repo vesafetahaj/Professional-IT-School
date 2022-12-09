@@ -1,7 +1,6 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: #ec6c4c;
 }
 @font-face {
     font-family: 'sequel 85';
@@ -9,10 +8,91 @@ body{
     font-weight: normal;
     font-style: normal;
 }
-.main{
-    margin-top: 160px;
-    padding-left: 60px;
+.imgbanner{
+    margin-top: 80px;
 }
+.imgbanner img{
+    width: 100%;
+}
+.imgbanner h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    margin-top: -250px;
+    font-size: 48px;
+}
+.imgbanner h4{
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.imgbanner h2, h4{
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    margin-left: 200px;
+}
+.contact{
+    height: 500px;
+    background-color: rgb(1, 1, 88);
+    display: flex;
+    align-items: center;
+}
+.contact .form{
+    height: 350px;
+    box-shadow: 2px 2px 5px #000000;
+    background-color: white;
+    width: 900px;
+    margin-left: 200px;
+    margin-top: 90px;
+}
+.contact .form img{
+    width: 27vw;
+}
+form{
+    float: right;
+}
+form input{
+    width: 170px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    margin-top: 60px;
+    margin-right: 60px;
+    background-color: rgb(219, 219, 219);
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+form button{
+    background-color: rgb(255, 195, 83);
+    padding: 10px;
+    color: black;
+    border: 1px solid rgb(182, 182, 0);
+    margin-top: 70px;
+    margin-left: 320px;
+    width: 120px; 
+}
+.info{
+    height: 400px;
+
+}
+.info h1{
+    font-family: monospace;
+    margin-top: 90px;
+    padding-left: 150px;
+    color: rgb(0, 33, 67);
+}
+.info dt, dd{
+    font-size: 16px;
+    padding-left: 150px;
+    color: rgb(0, 33, 67);
+    margin-top: 20px;
+}
+.info img{
+    width: 40%;
+    margin-right: 100px;
+    float: right;
+    margin-top: -330px;
+}
+/*
 .main h1{
     line-height: 82px;
     font-size: 72px;
@@ -113,4 +193,4 @@ body{
     width: 300px;
     text-align: center;
     margin-left: 500px;
-}
+}*/

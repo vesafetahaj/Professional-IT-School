@@ -8,8 +8,33 @@ body{
     font-weight: normal;
     font-style: normal;
 }
-.img-content{
+.about{
+    height: 500px;
+    background-color: darkblue;
     margin-top: 80px;
+    display: flex;
+}
+.about h1{
+    font-family: "sequel 85";
+    padding-top:150px;
+    color: #00d084;
+    font-size: 60px;
+    padding-left: 100px;
+    text-shadow: 4px 4px 0px #000000;
+}
+.about h3{
+    font-family: monospace;
+    padding-top: 250px;
+    color: white;
+    font-size: 30px;
+    margin-left: -300px;
+    text-shadow: 2px 2px 8px #000000;
+}
+.about img{
+    width: 595px;
+    height: 278px;
+    padding-top: 100px;
+    padding-left: 300px;
 }
 .img-content img{
     width: 100%;
