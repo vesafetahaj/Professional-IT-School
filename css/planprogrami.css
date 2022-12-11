@@ -8,13 +8,18 @@ body{
 html{
     scroll-behavior: smooth;
 }
+#main-content{
+    height: 1900px;
+}
 .img-container{
     margin-top: 100px;
     display: flex;
     justify-content: center;
+    animation: fadeIn 2s;
 }
 .img-container img{
     width: 100%;
+    
 }
 @font-face {
     font-family: 'sequel 85';
@@ -23,15 +28,14 @@ html{
     font-style: normal;
 }
 .text-container h1{
-    display: flex;
-    justify-content: flex-end;
-    margin-right: 275px;
+    margin-left: 575px;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color:white;
     font-family: "sequel 85";
     margin-top: -480px;
     font-size: 48px;
+    animation: fadeIn 2s;
 }
 
 .text-container img{
@@ -39,6 +43,7 @@ html{
     margin-left: 460px;
     cursor: pointer;
     margin-top: 30px;
+    animation: fadeIn 2s;
 }
 .img-content{
     width: 50%;
@@ -74,74 +79,95 @@ html{
 #text-content3{
     background-color: indianred;
 }
-.planprogrami{
-    height: 600px;
-    background-color: rgb(204, 137, 83);
-}
-.planprogrami .content{
-    height: 400px;
-    background-color: aliceblue;
-    width: 300px;
-    font-family: monospace;
-    box-shadow: 2px 2px 4px #000;
-}
-/*
-.tabela{
-    background-color: rgb(197, 197, 197);
-}  
-table{
+.planprogrami-left{
     width: 100%;
-    height: 400px;
-    padding-top: 100px;
-   
-}
-table tr th,td{
-    padding: 15px 40px;
-}
-table tr th{
-    font-family: "sequel 85";    
-}
-table tr td{
-    font-size: 20px;
-    font-family: monospace;
+    background-color: rgb(209, 126, 140);
+    height: 70vh;
+    padding-left: 100px;
 
 }
-table tr .grupmosha{
-    font-size: 28px;
-}
-table tr .first,#first{
-    color: #892890;
-}
-table tr .second,#second{
-    color: red;
-}
-table tr .third,#third{
-    color: darkblue;
-}
-
-table tr td button{
-    background-color: rgb(41, 163, 41);
-    text-align: center;
-    padding: 18px 18px;
-    border: none;
-    font-size: 16px;
+.planprogrami-left h3,a{
     font-family: monospace;
-    cursor: pointer;
-    color: white;
 }
-table tr td button:hover{
-    background-color: white;
-    color: rgb(41, 163, 41);
-    border: solid 2px rgb(41, 163, 41);
-}
-table tr td a{
-    color: darkblue;
-    font-family: monospace;
+.planprogrami-left h3,a{
     font-size: 20px;
-    padding-left: 20px;
-    text-decoration: underline;
+}
+.planprogrami-left h2{
+    padding-top: 150px;
+    font-family: "sequel 85";
+}
+.planprogrami-left img{
+    float: right;
+}
+.planprogrami-right{
+    width: 100%;
+    background-color: rgb(126, 145, 209);
+    height: 75vh;
+    padding-left: 100px;
+    margin-top: -20px;
+}
+.planprogrami-right h3,a{
+    font-family: monospace;
+}
+.planprogrami-right h3,a{
+    font-size: 20px;
+}
+.planprogrami-right h2{
+    padding-top: 130px;
+    font-family: "sequel 85";
+}
+.planprogrami-right img{
+    float: left;
 }
 .meshume:hover{
     color: rgb(41, 163, 41);
     text-decoration: none;
-}*/
+}
+.activities{
+   display: flex;
+   justify-content: space-evenly;
+   align-items:flex-start ;
+   height: 30vh;
+   background-color: blanchedalmond;
+}
+.head-activities{
+    background-color: blanchedalmond;
+    margin-top: -30px;
+    margin-bottom: -30px;
+}
+.head-activities h3{
+    font-family: "sequel 85";
+    text-align: center;
+    font-size: 30px;
+    padding-top: 60px;
+    padding-bottom: 100px;
+}
+.activities img{
+    width: 10%;
+    padding-left: 20px;
+}
+.activities-headings{
+    display: flex;
+    justify-content: space-evenly;
+    align-items:flex-start ;
+    background-color: blanchedalmond;
+    font-size: 26px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+
+ .activities-content{
+    display: flex;
+    justify-content: space-evenly;
+    align-items:flex-start ;
+    background-color: blanchedalmond;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+ .activities-content h6{
+    width: 20%;
+    padding-left: 30px;
+ }
+ @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
