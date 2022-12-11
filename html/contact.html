@@ -36,12 +36,12 @@
             <div class="contact">
                 <div class="form">
                     <img src="C:\Users\hp\Desktop\Professional-IT-School-1\images\paid-section.jpg">
-                    <form>
-                        <input type="text" placeholder="name">
-                        <input type="text" placeholder="phone"><br>
-                        <input type="email" placeholder="email">
-                        <input type="number" placeholder="zip code"><br>
-                        <button value="SUBMIT">SUBMIT</button>
+                    <form name="myForm">
+                        <input type="text" placeholder="name" id="name" required>
+                        <input type="number" placeholder="phone" id="phone" required><br>
+                        <input type="email" placeholder="email" id="email" required>
+                        <input type="number" placeholder="zip code" id="zipcode" required><br>
+                        <button onclick="contactValidation()">SUBMIT</button>
                     </form>
                 </div>
             </div>
@@ -58,68 +58,7 @@
                 <img src="C:\Users\hp\Desktop\Professional-IT-School-1\images\abstract_rack_of_servers-100538194-large_1.jpg">
 
             </div>
-            <!--<div class="main">
-                <h1>Na kontaktoni</h1>
-                <h3>Start Smart Academy ndodhet në: </h3>
-            </div>
-            <div class="contact">
-                <div class="leftcontact">
-                    <h1>Prishtinë</h1>
-                    <a href="https://www.google.com/maps/place/Pashko+Vasa,+Prishtin%C3%AB/@42.6579085,21.1529225,17z/data=!4m5!3m4!1s0x13549ee56f851e0b:0xe6824045d06ee9c5!8m2!3d42.6579084!4d21.1551109?shorturl=1" target="_blank"><img src="C:\Users\hp\Desktop\Professional-IT-School-1\images\pin.png">Rr. Pashko Vasa nr. 28</a> <br>
-                    <a href="https://www.google.com/maps/place/Pashko+Vasa,+Prishtin%C3%AB/@42.6579085,21.1529225,17z/data=!4m5!3m4!1s0x13549ee56f851e0b:0xe6824045d06ee9c5!8m2!3d42.6579084!4d21.1551109?shorturl=1" target="_blank">Pejton, 10000</a> <br>
-                    <a href="https://www.google.com/maps/place/Pashko+Vasa,+Prishtin%C3%AB/@42.6579085,21.1529225,17z/data=!4m5!3m4!1s0x13549ee56f851e0b:0xe6824045d06ee9c5!8m2!3d42.6579084!4d21.1551109?shorturl=1" target="_blank">Kosovë</a> <br>
-                    <img src="C:\Users\hp\Desktop\Professional-IT-School-1\images\telephone.png"> <p>+383 45 301 502</p> <br>
-                    <a href="https://www.google.com/gmail/about/"><img src="C:\Users\hp\Desktop\Professional-IT-School-1\images\email.png">info@startsmartacademy.com</a>
-                </div>
-                <div class="rightcontact" style="margin-top: -370px;">
-                    <h1>Ferizaj</h1>
-                    <a href="https://www.google.com/maps/place/Shkolla+Digjitale/@42.65046,21.159881,15z/data=!4m5!3m4!1s0x0:0x6e2e935d0eaa29c4!8m2!3d42.6504096!4d21.1598914?sa=X&ved=2ahUKEwiq5bGUyq70AhV77rsIHXY9CAsQ_BJ6BAhKEAU&shorturl=1" target="_blank"><img src="C:\Users\hp\Desktop\Professional-IT-School-1\images\pin.png">Rr. Dëshmorët e Kombit</a> <br>
-                    <a href="https://www.google.com/maps/place/Shkolla+Digjitale/@42.65046,21.159881,15z/data=!4m5!3m4!1s0x0:0x6e2e935d0eaa29c4!8m2!3d42.6504096!4d21.1598914?sa=X&ved=2ahUKEwiq5bGUyq70AhV77rsIHXY9CAsQ_BJ6BAhKEAU&shorturl=1" target="_blank">Ferizaj, 70000</a> <br>
-                    <a href="https://www.google.com/maps/place/Shkolla+Digjitale/@42.65046,21.159881,15z/data=!4m5!3m4!1s0x0:0x6e2e935d0eaa29c4!8m2!3d42.6504096!4d21.1598914?sa=X&ved=2ahUKEwiq5bGUyq70AhV77rsIHXY9CAsQ_BJ6BAhKEAU&shorturl=1" target="_blank">Kosovë</a> <br>
-                    <img src="C:\Users\hp\Desktop\Professional-IT-School-1\images\telephone.png"> <p>+383 49 415 300</p> <br>
-                    <a href="https://www.google.com/gmail/about/"><img src="C:\Users\hp\Desktop\Professional-IT-School-1\images\email.png">ferizaj@startsmartacademy.com</a>
-                </div>
-                <div class="leftcontact">
-                    <h1>Prizren</h1>
-                    <a href="https://www.google.com/maps/place/Shkolla+Digjitale/@42.65046,21.159881,15z/data=!4m5!3m4!1s0x0:0x6e2e935d0eaa29c4!8m2!3d42.6504096!4d21.1598914?sa=X&ved=2ahUKEwiq5bGUyq70AhV77rsIHXY9CAsQ_BJ6BAhKEAU&shorturl=1" target="_blank"><img src="C:\Users\hp\Desktop\Professional-IT-School-1\images\pin.png">Rr. Shuaip Spahiu, p.n</a> <br>
-                    <a href="https://www.google.com/maps/place/Shkolla+Digjitale/@42.65046,21.159881,15z/data=!4m5!3m4!1s0x0:0x6e2e935d0eaa29c4!8m2!3d42.6504096!4d21.1598914?sa=X&ved=2ahUKEwiq5bGUyq70AhV77rsIHXY9CAsQ_BJ6BAhKEAU&shorturl=1" target="_blank">Prizren, 20000</a> <br>
-                    <a href="https://www.google.com/maps/place/Shkolla+Digjitale/@42.65046,21.159881,15z/data=!4m5!3m4!1s0x0:0x6e2e935d0eaa29c4!8m2!3d42.6504096!4d21.1598914?sa=X&ved=2ahUKEwiq5bGUyq70AhV77rsIHXY9CAsQ_BJ6BAhKEAU&shorturl=1" target="_blank">Kosovë</a> <br>
-                    <img src="C:\Users\hp\Desktop\Professional-IT-School-1\images\telephone.png"> <p>+383 43 700 554</p> <br>
-                    <a href="https://www.google.com/gmail/about/"><img src="C:\Users\hp\Desktop\Professional-IT-School-1\images\email.png">prizren@startsmartacademy.com</a>
-                </div>
-                 <div class="rightcontact" style="margin-top: -370px;">
-                    <h1>Mitrovicë</h1>
-                    <a href="https://www.google.com/maps/place/Shkolla+Digjitale+Mitrovice/@42.8781367,20.863659,17z/data=!3m1!4b1!4m5!3m4!1s0x1353457c2a44af59:0x3b1de959c9ecd800!8m2!3d42.8781328!4d20.8658477?shorturl=1" target="_blank"><img src="C:\Users\hp\Desktop\Professional-IT-School-1\images\pin.png">Rr. Mbretëresha Teutë</a> <br>
-                    <a href="https://www.google.com/maps/place/Shkolla+Digjitale+Mitrovice/@42.8781367,20.863659,17z/data=!3m1!4b1!4m5!3m4!1s0x1353457c2a44af59:0x3b1de959c9ecd800!8m2!3d42.8781328!4d20.8658477?shorturl=1" target="_blank">Mitrovicë, 40000</a> <br>
-                    <a href="https://www.google.com/maps/place/Shkolla+Digjitale+Mitrovice/@42.8781367,20.863659,17z/data=!3m1!4b1!4m5!3m4!1s0x1353457c2a44af59:0x3b1de959c9ecd800!8m2!3d42.8781328!4d20.8658477?shorturl=1" target="_blank">Kosovë</a> <br>
-                    <img src="C:\Users\hp\Desktop\Professional-IT-School-1\images\telephone.png"> <p>+383 49 572 542</p> <br>
-                    <a href="https://www.google.com/gmail/about/"><img src="C:\Users\hp\Desktop\Professional-IT-School-1\images\email.png">mitrovice@startsmartacademy.com</a>
-                </div>
-                <div class="leftcontact">
-                    <h1>Pejë</h1>
-                    <a href="https://www.google.com/maps/place//data=!4m2!3m1!1s0x13549f4d6878fd73:0xacc9f374c1963853?source=g.page.share" target="_blank"><img src="C:\Users\hp\Desktop\Professional-IT-School-1\images\pin.png">Rr. Mbreti Pirro</a> <br>
-                    <a href="https://www.google.com/maps/place//data=!4m2!3m1!1s0x13549f4d6878fd73:0xacc9f374c1963853?source=g.page.share" target="_blank">Pejë, 30000</a> <br>
-                    <a href="https://www.google.com/maps/place//data=!4m2!3m1!1s0x13549f4d6878fd73:0xacc9f374c1963853?source=g.page.share" target="_blank">Kosovë</a> <br>
-                    <img src="C:\Users\hp\Desktop\Professional-IT-School-1\images\telephone.png"> <p>+383 49 755 899</p> <br>
-                    <a href="https://www.google.com/gmail/about/"><img src="C:\Users\hp\Desktop\Professional-IT-School-1\images\email.png">peja@startsmartacademy.com</a>
-                </div>
-                <div class="rightcontact" style="margin-top: -370px;">
-                    <h1>Gjakovë</h1>
-                    <a href="https://www.google.com/maps/place/Shkolla+Digjitale+Gjakov%C3%AB/@42.3733892,20.4400487,17z/data=!3m1!4b1!4m5!3m4!1s0x1353b1b16f28079b:0xe94bc4076e2e1be4!8m2!3d42.3733853!4d20.4422374?shorturl=1" target="_blank"><img src="C:\Users\hp\Desktop\Professional-IT-School-1\images\pin.png">Rr, Sulejman Hadum Aga 189</a> <br>
-                    <a href="https://www.google.com/maps/place/Shkolla+Digjitale+Gjakov%C3%AB/@42.3733892,20.4400487,17z/data=!3m1!4b1!4m5!3m4!1s0x1353b1b16f28079b:0xe94bc4076e2e1be4!8m2!3d42.3733853!4d20.4422374?shorturl=1" target="_blank">Gjakovë, 50000</a> <br>
-                    <a href="https://www.google.com/maps/place/Shkolla+Digjitale+Gjakov%C3%AB/@42.3733892,20.4400487,17z/data=!3m1!4b1!4m5!3m4!1s0x1353b1b16f28079b:0xe94bc4076e2e1be4!8m2!3d42.3733853!4d20.4422374?shorturl=1" target="_blank">Kosovë</a> <br>
-                    <img src="C:\Users\hp\Desktop\Professional-IT-School-1\images\telephone.png"> <p>+383 43 99 22 77</p> <br>
-                    <a href="https://www.google.com/gmail/about/"><img src="C:\Users\hp\Desktop\Professional-IT-School-1\images\email.png">gjakove@startsmartacademy.com</a>
-                </div>
-            </div>
-            <div class="help">
-                <img src="C:\Users\hp\Desktop\Professional-IT-School-1\images\help-banner-1-scaled[1].png">
-            </div>
-            <div class="helptxt">
-                <h1>Keni nevojë për ndihmë?</h1>
-                <h3>Lini numrin tuaj më poshtë dhe ne ju kontaktojmë.</h3> <br>
-                <input type="number" placeholder="04X - XXX - XXX">
-            </div>-->
+           
         </main> 
         <footer>
             <a href="C:\Users\hp\Desktop\Professional-IT-School-1\html\home.html"><img src="C:\Users\hp\Desktop\Professional-IT-School-1\images\start-smart-website-favicon-white.png"></a>
@@ -134,5 +73,7 @@
             </div>
             <p id="legal">© COPYRIGHT 2022. START SMART ACADEMY. ALL RIGHTS RESERVED.</p>
         </footer>
+
+        <script src="C:\Users\hp\Desktop\Professional-IT-School-1\javascript\contact.js"></script>
     </body>
 </html>

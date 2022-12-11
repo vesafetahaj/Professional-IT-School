@@ -3,7 +3,7 @@ body{
     padding: 0;
 }
 .container{
-    background-color: darkblue;
+    background-image: linear-gradient(#ea3c12, #ec6c4c);
     margin-top: 100px;
     height: 1600px;
  
@@ -22,8 +22,9 @@ body{
     padding-top: 80px;
 }
 .container label{
-    color: #108bf9;
-    font-family: "sequel 85";
+    color: #000;
+    font-family: monospace;
+    font-weight: bold;
     font-size: 30px;
     margin-left: 70px;
 }

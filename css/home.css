@@ -1,22 +1,43 @@
-#slideshow img{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin-top: 110px;
-    animation: fadeIn 2s;
-}
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: content-box;
 }
+.mySlides {
+    display: none;
+    margin-left: 7px;
+}
+img {
+    vertical-align: middle;
+}
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin-top: 110px;
+
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 2s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+  .text {
+    font-size: 11px
+    }
+}
+
 @font-face {
     font-family: 'sequel 85';
     src: url('C:\\Users\\hp\\Desktop\\Professional-IT-School-1\\fonts\\Sequel100Black-85.ttf');
     font-weight: normal;
     font-style: normal;
-
 }
 .kurrikula-body{
     background-color: #ea3c12;
@@ -71,7 +92,6 @@
     margin-left: 350px;
     margin-top: -290px;
 }
-
 .Kurrikula-left img{
     width: 270px;
     margin-left: 200px;
@@ -116,16 +136,13 @@
     height: 130px;
     margin-top: 20px;
 }
-
 .gallery:hover {
     border: 1px solid #777;
-}
-  
+}  
 .gallery img {
     width: 100%;
     height: auto;
-}
-  
+} 
 .responsive {
     padding: 0 3px;
     margin-left: 40px;
@@ -138,7 +155,6 @@
 .responsive img:hover{
     transform: scale(1.2);
 }
- 
 .gallery-photo{
     height: 500px;
 }
@@ -149,7 +165,7 @@
     }
   }
   
-  @media only screen and (max-width: 500px) {
+@media only screen and (max-width: 500px) {
     .responsive {
       width: 100%;
     }

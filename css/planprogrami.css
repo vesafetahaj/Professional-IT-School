@@ -12,7 +12,7 @@ html{
     height: 1900px;
 }
 .img-container{
-    margin-top: 100px;
+    margin-top: 115px;
     display: flex;
     justify-content: center;
     animation: fadeIn 2s;
