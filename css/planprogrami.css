@@ -74,7 +74,18 @@ html{
 #text-content3{
     background-color: indianred;
 }
-
+.planprogrami{
+    height: 600px;
+    background-color: rgb(204, 137, 83);
+}
+.planprogrami .content{
+    height: 400px;
+    background-color: aliceblue;
+    width: 300px;
+    font-family: monospace;
+    box-shadow: 2px 2px 4px #000;
+}
+/*
 .tabela{
     background-color: rgb(197, 197, 197);
 }  
@@ -133,4 +144,4 @@ table tr td a{
 .meshume:hover{
     color: rgb(41, 163, 41);
     text-decoration: none;
-}
+}*/
