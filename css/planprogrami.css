@@ -123,13 +123,6 @@ html{
     color: rgb(41, 163, 41);
     text-decoration: none;
 }
-.activities{
-   display: flex;
-   justify-content: space-evenly;
-   align-items:flex-start ;
-   height: 30vh;
-   background-color: blanchedalmond;
-}
 .head-activities{
     background-color: blanchedalmond;
     margin-top: -30px;
@@ -141,6 +134,13 @@ html{
     font-size: 30px;
     padding-top: 60px;
     padding-bottom: 100px;
+}
+.activities{
+   display: flex;
+   justify-content: space-evenly;
+   align-items:flex-start ;
+   height: 30vh;
+   background-color: blanchedalmond;
 }
 .activities img{
     width: 10%;
@@ -154,14 +154,14 @@ html{
     font-size: 26px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
  }
-
- .activities-content{
+.activities-content{
     display: flex;
     justify-content: space-evenly;
     align-items:flex-start ;
     background-color: blanchedalmond;
     font-size: 25px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: 500px;
  }
  .activities-content h6{
     width: 20%;
@@ -170,4 +170,14 @@ html{
  @keyframes fadeIn {
     0% { opacity: 0; }
     100% { opacity: 1; }
+}
+.reveal{
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease;
+}
+  
+.reveal.active{
+    transform: translateY(0);
+    opacity: 1;
 }

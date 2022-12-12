@@ -42,7 +42,7 @@ header{
 #nav a:hover{
     background-color:#ec5938;
 }
-.active{
+.activeNav{
     background-color: #ec5938;
 }
 #nav :first-child{
