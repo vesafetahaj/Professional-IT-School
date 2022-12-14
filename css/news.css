@@ -28,12 +28,14 @@
     max-width: 25%;
     float: right;
     margin-top: 120px;
-    margin-bottom: -60px;
+    margin-bottom: -100px;
+    border-bottom: 1px solid rgb(138, 138, 138);
 }
 .sideNews img{
     width: 40%;
     margin-left: 20px;
     box-shadow: 2px 3px 9px rgb(82, 82, 82);
+    margin-bottom: 30px;
 }
 .sideNews a{
     text-decoration: none;

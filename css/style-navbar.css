@@ -1,7 +1,8 @@
 #logo{
-    width: 180px;
+    width: 120px;
     margin-top: 0;
     margin-left: 80px;
+    padding: 5px;
     display: inline;
 }
 header{
@@ -16,11 +17,21 @@ header{
     display: inline;
     position: absolute;
     top: 15px;
-    left: 1100px;
+    left: 900px;
 }
 
 #socials a img{
     width: 30px;
+}
+#socials button img{
+    width: 30px;
+}
+#socials button{
+    border: none;
+    background-color: transparent;
+    margin-left: 250px;
+    box-shadow: none;
+    cursor: pointer;
 }
 
 #nav{
