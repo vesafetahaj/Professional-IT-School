@@ -55,6 +55,7 @@
     width: 100%;
     display: flex;
     justify-content: space-around;
+    flex-wrap: nowrap;
     height: 700px;
     align-items: center;
 }
@@ -68,7 +69,6 @@
 }
 .newsContent{
     width: 30%;
-    border: 1px solid rgb(117, 117, 117);
     height: 70%;
     padding: 10px;
     box-shadow: 2px 2px 9px rgb(139, 139, 139);
