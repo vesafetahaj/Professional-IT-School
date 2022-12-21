@@ -17,19 +17,28 @@ header{
     display: inline;
     position: absolute;
     top: 15px;
-    left: 900px;
+    left: 1100px;
 }
-
-#socials a img{
-    width: 30px;
+#socials a i{
+    color: #ea3c12;
+    font-size: 30px;
+    padding-left: 10px;
 }
-#socials button img{
-    width: 30px;
+#socials a i:hover{
+    color: rgb(115, 207, 115);
+}
+#socials button i{
+    color: #ea3c12;
+    font-size: 30px;
+    padding-left: 10px;
+}
+#socials button i:hover{
+    color: rgb(115, 207, 115);
 }
 #socials button{
     border: none;
     background-color: transparent;
-    margin-left: 250px;
+    margin-left: 20px;
     box-shadow: none;
     cursor: pointer;
 }

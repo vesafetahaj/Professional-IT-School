@@ -17,6 +17,7 @@ signupButton.addEventListener("click", function(event){
     var name = document.getElementById("name").value;
     var surname = document.getElementById("surname").value;
     var confirmPassword = document.getElementById("confirmpassword").value;
+    
 
     if(email == ""){
         emailMsg.innerText="*Please fill out this field!";
@@ -74,7 +75,8 @@ signupButton.addEventListener("click", function(event){
             event.preventDefault();
         }
     }
-   
+  
+    
    
     
     

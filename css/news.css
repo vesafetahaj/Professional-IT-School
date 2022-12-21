@@ -78,6 +78,10 @@
 .newsContent img{
     width: 100%;
 }
+.newsContent:hover{
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+}
 .newsContent h3{
     font-family: monospace;
     font-size: 20px;
