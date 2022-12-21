@@ -75,10 +75,23 @@ signupButton.addEventListener("click", function(event){
             event.preventDefault();
         }
     }
-  
-    
-   
-    
-    
 
 });
+var button = document.getElementById('darkmode');
+var body = document.querySelector("body");
+var header = document.querySelector("header");
+
+
+
+button.onclick = function(){
+    body.style.backgroundColor = "black";
+    header.style.backgroundColor = "black";
+    body.style.color = "white";
+
+}
+button.ondblclick = function(){
+    body.style.backgroundColor = "white";
+    body.style.color = "black";
+    header.style.backgroundColor = "white";
+
+}

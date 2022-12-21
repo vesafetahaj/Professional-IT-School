@@ -35,3 +35,22 @@ loginButton.addEventListener("click", function(event){
     }
 
 })
+
+var button = document.getElementById('darkmode');
+var body = document.querySelector("body");
+var header = document.querySelector("header");
+var logo = document.getElementById("blacklogo");
+
+
+button.onclick = function(){
+    body.style.backgroundColor = "black";
+    header.style.backgroundColor = "black";
+    body.style.color = "white";
+    logo.src = "../images/start-smart-website-favicon-white.png";
+}
+button.ondblclick = function(){
+    body.style.backgroundColor = "white";
+    body.style.color = "black";
+    header.style.backgroundColor = "white";
+    logo.src = "../images/start-smart-website-favicon-black.png"
+}
