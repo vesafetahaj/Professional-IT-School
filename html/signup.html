@@ -33,28 +33,34 @@
                     <h1>Sign up to Start Smart Academy</h1>
                     <form>
                         <label>Name</label>
-                        <input type="text" placeholder="Name" class="inputfield" style="margin-left: 180px;"><br>
+                        <input type="text" placeholder="Name" class="inputfield" id="name" style="margin-left: 180px;"><br>
+                        <label  style = "color: red; font-size: 12px; padding-left: 230px;" for="name" id="nameMessage"></label> <br>
 
                         <label>Surname</label>
-                        <input type="text" placeholder="Surname" class="inputfield" style="margin-left: 160px;"><br>
+                        <input type="text" placeholder="Surname" class="inputfield" id="surname" style="margin-left: 160px;"><br>
+                        <label  style = "color: red; font-size: 12px; padding-left: 230px;" for="surname" id="surnameMessage"></label> <br>
 
                         <label>Gender</label>
                         <input type="radio" name="gjinia" style="margin-left: 180px;"><label>Male</label>
                         <input type="radio" name="gjinia" style="margin-left: 60px;"><label>Female</label> <br><br>
+                        <label  style = "color: red; font-size: 12px; padding-left: 230px;"  id="genderMessage"></label> <br>
 
                         <label>Email </label>
-                        <input type="email"placeholder="Email" class="inputfield" style="margin-left: 188px;"><br>
+                        <input type="email" placeholder="Email" class="inputfield" id="email" style="margin-left: 188px;"><br>
+                        <label  style = "color: red; font-size: 12px; padding-left: 230px;" for="email" id="emailMessage"></label> <br>
 
                         <label>Password</label>
-                        <input type="password" placeholder="Password" class="inputfield" style="margin-left: 160px;"><br>
+                        <input type="password" placeholder="Password" class="inputfield" id="password" style="margin-left: 160px;"><br>
+                        <label  style = "color: red; font-size: 12px; padding-left: 230px;" for="password" id="passwordMessage"></label> <br>
 
                         <label>Confirm Password</label>
-                        <input type="password" placeholder="Confirm Password" class="inputfield" style="margin-left: 100px;"><br>
+                        <input type="password" placeholder="Confirm Password" class="inputfield" id="confirmpassword" style="margin-left: 100px;"><br>
+                        <label  style = "color: red; font-size: 12px; padding-left: 230px;" for="confirmpassword" id="confirmpasswordMessage"></label> <br>
 
                     </form> 
                     <input type="checkbox" name="remember me">
                     <label> Remember me</label>  <br><br><br>
-                    <a href="#" style="margin-left: 0px;"><button>Sign up</button></a>
+                    <a href="#" style="margin-left: 0px;"><button id="signup">Sign up</button></a>
                     <p style="margin-top: 30px; font-family: 'Gotham', sans-serif; font-size: 12px;">*Email addresses are not stored in a form that allows us to contact students. <br>
                         Students will never receive emails from Start Smart Academy except for password recovery.</p>
                 </div>
@@ -74,5 +80,6 @@
             </div>
             <p id="legal">© COPYRIGHT 2022. START SMART ACADEMY. ALL RIGHTS RESERVED.</p>
         </footer>
+        <script src="../javascript/signup.js"></script>
     </body>
 </html>
