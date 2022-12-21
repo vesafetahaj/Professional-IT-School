@@ -32,10 +32,12 @@
                 <div class="form">
                     <h1>Have an account already? Sign in</h1>
                     <form>
-                        <label for="email">Email or username</label>
-                        <input type="text" id="name" placeholder="Email or username"><br>
+                        <label for="email">Email</label>
+                        <input type="text" id="email" placeholder="Email"><br>
+                        <label  style = "color: red; font-size: 12px; padding-left: 130px;" for="email" id="emailMessage"></label> <br>
                         <label for="password" style="margin-left: 63px;">Password</label>
-                        <input type="password" id="password" placeholder="Password"><br>
+                        <input type="password" id="password" placeholder="Password" style="margin-left: 96px;"><br>
+                        <label  style = "color: red; font-size: 12px; padding-left: 130px;" for="password" id="passwordMessage"></label> <br>
                     </form>
                     <a href="#">Forgot password?</a><br><br>   
                     <a href="#"><button id="login">Log in</button></a>
@@ -106,5 +108,6 @@
             </div>
             <p id="legal">© COPYRIGHT 2022. START SMART ACADEMY. ALL RIGHTS RESERVED.</p>
         </footer>
+        <script src="..\javascript\projects.js"></script>
     </body>
 </html>
