@@ -9,6 +9,7 @@ var passwordMsg = document.getElementById("passwordMessage");
 var nameMsg = document.getElementById("nameMessage");
 var surnameMsg = document.getElementById("surnameMessage");
 var confirmMsg = document.getElementById("confirmpasswordMessage");
+var genderMsg = document.getElementById("genderMessage");
 
 
 signupButton.addEventListener("click", function(event){
@@ -75,6 +76,13 @@ signupButton.addEventListener("click", function(event){
             event.preventDefault();
         }
     }
+    var getSelectedValue = document.querySelector( 'input[name="gjinia"]:checked');   
+    if(getSelectedValue != null){   
+        genderMsg.innerText = ""; 
+    } 
+    else {  
+        genderMsg.innerText = "*Please select an option!";
+    } 
 
 });
 var button = document.getElementById('darkmode');

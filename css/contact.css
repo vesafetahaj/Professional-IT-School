@@ -81,10 +81,12 @@ form button{
     color: rgb(0, 33, 67);
 }
 .info dt, dd{
-    font-size: 16px;
+    font-size: 14px;
     padding-left: 150px;
     color: rgb(0, 33, 67);
     margin-top: 20px;
+    font-family: 'Gotham Light', sans-serif;
+    font-weight: 300;
 }
 .info img{
     width: 40%;

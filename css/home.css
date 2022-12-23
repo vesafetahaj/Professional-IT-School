@@ -123,7 +123,8 @@ img {
     align-items: flex-start;
     height: 800px;
     flex-wrap: wrap;
-    background-color: #ea3c12;  
+    background-image: linear-gradient(#ea3c12, #ec6c4c);  
+    border-bottom: 1px solid #ea3c12;
 }
 .gallery-photo{
     padding-top: 40px;

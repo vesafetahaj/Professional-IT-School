@@ -22,7 +22,12 @@
     margin-top: -50px;
     margin-left: 80px;
     font-size: 20px;
-    text-shadow: 2px 3px 9px red;
+    text-shadow: 2px 2px 3px black;
+}
+.mainNews h3:hover{
+    text-decoration: underline red 1px;
+    color: rgb(247, 173, 173);
+    
 }
 .sideNews{
     max-width: 25%;
