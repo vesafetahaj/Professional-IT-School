@@ -31,17 +31,27 @@
             <div class="container">
                 <h1>REGJISTROHUNI TANI NË KURSIN E PROGRAMIMIT DUKE PLOTËSUAR<br> TË DHËNAT MË POSHTË:</h1> <br>
                 <label>Emri</label> <br>
-                <input type="text"> <br>
+                <input type="text" id="nameField"> <br>
+                <label  style = "color: white; font-size: 14px; padding-left: 330px;" id="nameMessage"></label> <br>
+
                 <label>Mbiemri</label> <br>
-                <input type="text"> <br>
+                <input type="text" id="surnameField"> <br>
+                <label  style = "color: white; font-size: 14px; padding-left: 330px;" id="surnameMessage"></label> <br>
+
                 <label>Mosha</label> <br>
-                <input type="number"> <br>
+                <input type="number" id="ageField"> <br>
+                <label  style = "color: white; font-size: 14px; padding-left: 330px;"  id="ageMessage"></label> <br>
+
                 <label>Numri i telefonit</label> <br>
-                <input type="number"> <br>
+                <input type="text" id="numberField"> <br>
+                <label  style = "color: white; font-size: 14px; padding-left: 330px;"  id="numberMessage"></label> <br>
+
                 <label>Email</label> <br>
-                <input type="email"> <br>
+                <input type="email" id="emailField"> <br>
+                <label  style = "color: white; font-size: 14px; padding-left: 330px;" id="emailMessage"></label> <br>
+
                 <label>Qyteti</label> <br>
-                <select>
+                <select id="selectCity">
                     <option>--</option>
                     <option>Prishtine</option>
                     <option>Peje</option>
@@ -50,14 +60,16 @@
                     <option>Mitrovice</option>
                     <option>Ferizaj</option>
                 </select> <br>
+                <label  style = "color: white; font-size: 14px; padding-left: 330px;" id="cityMessage"></label> <br>
                 <label>Lloji i Trajnimit</label> <br>
-                <select>
+                <select id="trajnimi">
                     <option>--</option>
                     <option>Fizikisht</option>
                     <option>Online</option>
                 </select><br>
+                <label  style = "color: white; font-size: 14px; padding-left: 330px;" id="trajnimiMessage"></label> <br>
                 <label>Koha qe preferoni</label> <br>
-                <select>
+                <select id="orari">
                     <option>--</option>
                     <option>9:00 - Hëne, Mërkurë</option>
                     <option>10:00 - Hëne, Mërkurë</option>
@@ -72,21 +84,25 @@
                     <option>13:30 - Marte, Enjte</option>
                     <option>15:00 - Marte, Enjte</option>
                 </select> <br>
-                <button>Regjistrohu</button>
+                <label  style = "color: white; font-size: 14px; padding-left: 330px;" id="orariMessage"></label> <br>
+                <button id="regjistrohu">Regjistrohu</button>
             </div>
         </main>
+        <footer>
+            <a href="home.html"><img src="..\images\start-smart-website-favicon-white.png"></a>
+            <div class="first-content">
+                <a href="https://www.google.com/maps/place/Universiteti+p%C3%ABr+Biznes+dhe+Teknologji/@42.6026634,21.108897,13z/data=!4m8!1m2!2m1!1subt!3m4!1s0x13549e8d5d607f25:0xa31dd05b21bd09de!8m2!3d42.647155!4d21.153124"><p>Lagjja Kalabria,10000 Prishtine, Kosovo</p></a>
+            </div>
+            <div class="second-content">
+                <p>+383 38 541 400</p>
+            </div>
+            <div class="third-content">
+                <a href="https://mail.google.com/"><p>startsmartacademy@gmail.com</p></a>
+            </div>
+            <p id="legal">© COPYRIGHT 2022. START SMART ACADEMY. ALL RIGHTS RESERVED.</p>
+        </footer>
+        <script src="../javascript/regjistrohu.js"></script>
+
     </body>
-    <footer>
-        <a href="home.html"><img src="..\images\start-smart-website-favicon-white.png"></a>
-        <div class="first-content">
-            <a href="https://www.google.com/maps/place/Universiteti+p%C3%ABr+Biznes+dhe+Teknologji/@42.6026634,21.108897,13z/data=!4m8!1m2!2m1!1subt!3m4!1s0x13549e8d5d607f25:0xa31dd05b21bd09de!8m2!3d42.647155!4d21.153124"><p>Lagjja Kalabria,10000 Prishtine, Kosovo</p></a>
-        </div>
-        <div class="second-content">
-            <p>+383 38 541 400</p>
-        </div>
-        <div class="third-content">
-            <a href="https://mail.google.com/"><p>startsmartacademy@gmail.com</p></a>
-        </div>
-        <p id="legal">© COPYRIGHT 2022. START SMART ACADEMY. ALL RIGHTS RESERVED.</p>
-    </footer>
+   
 </html>
