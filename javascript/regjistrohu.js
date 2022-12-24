@@ -79,7 +79,7 @@ regjistrohuButton.addEventListener("click", function(event){
             event.preventDefault();
         }
     }
-    if(number == null){
+    if(number == ""){
         numberMsg.innerText="*Please fill out this field!";
         event.preventDefault();
     }else{
